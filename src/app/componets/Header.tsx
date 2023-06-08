@@ -18,12 +18,12 @@ export default function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <header className="bg-white shadow sticky top-0">
+    <header className="bg-white shadow">
       <div className="container mx-auto px-4 py-6">
         <nav className="flex justify-between items-center">
           <div>
-            <Link href="/" className="text-2xl font-bold text-gray-800">
-              Jordan&apos;s Blog
+            <Link href="/" className="text-lg sm:text-2xl font-bold text-gray-800 mr-4">
+              Jordan&apos;s Coding Chronicles
             </Link>
           </div>
           <div className="hidden sm:block">
