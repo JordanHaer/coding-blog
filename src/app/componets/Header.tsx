@@ -26,7 +26,7 @@ export default function Header() {
               Jordan&apos;s Blog
             </Link>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden sm:block">
             {navLinks.map((link, index) => (
               <Link
                 key={index}
@@ -37,7 +37,7 @@ export default function Header() {
               </Link>
             ))}
           </div>
-          <div className="md:hidden">
+          <div className="sm:hidden">
             <button className="text-gray-600 hover:text-gray-800 focus:outline-none" onClick={toggleMenu}>
               {isMenuOpen ? <CrossIcon /> : <HamburgerIcon />}
             </button>
