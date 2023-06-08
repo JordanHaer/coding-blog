@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import HamburgerIcon from "./HamburgerIcon";
-import CrossIcon from "./CrossIcon";
+import HamburgerIcon from "../icons/HamburgerIcon";
+import CrossIcon from "../icons/CrossIcon";
 
 const navLinks = [
   { label: "Home", href: "/" },
