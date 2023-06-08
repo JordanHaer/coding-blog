@@ -10,10 +10,14 @@ export default function Footer() {
         </p>
         <ul className=" items-center gap-4 hidden  sm:flex">
           <li>
-            <LinkedInIcon />
+            <a href="https://github.com/JordanHaer" target="_blank" rel="noopener noreferrer">
+              <GitHubIcon />
+            </a>
           </li>
           <li>
-            <GitHubIcon />
+            <a href="https://github.com/JordanHaer" target="_blank" rel="noopener noreferrer">
+              <LinkedInIcon />
+            </a>
           </li>
         </ul>
       </div>
