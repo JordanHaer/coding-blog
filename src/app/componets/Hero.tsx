@@ -4,7 +4,7 @@ import AllBlogPostsButton from "./AllBlogPostsButton";
 
 export default function Hero() {
   return (
-    <main className="flex-grow flex flex-col items-center">
+    <div className="flex flex-col items-center">
       <div
         className="w-full relative"
         style={{
@@ -17,18 +17,21 @@ export default function Hero() {
         <div className="container mx-auto px-4 py-12 relative z-10">
           <div className="max-w-3xl mx-auto">
             <h1 className="text-4xl font-bold text-white mb-6">Welcome to My Blog</h1>
-            <p className=" text-white leading-loose">
+            <p className=" text-white leading-loose mb-6">
               Welcome to my coding blog, where I document my journey of learning and exploring web development.
               Here, I share insights, tutorials, and experiences as I delve into the world of web technologies.
               Join me on this exciting adventure as we uncover the intricacies of HTML, CSS, JavaScript,
               frameworks, and more. Let&#39;s learn and grow together in the vast landscape of web development.
             </p>
-            <div className="mt-6">
-              <AllBlogPostsButton />
-            </div>
+            <AllBlogPostsButton />
           </div>
         </div>
       </div>
-    </main>
+      <div className="container mx-auto px-4 pt-8">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-4xl font-semibold text-center">Recent blog posts</h2>
+        </div>
+      </div>
+    </div>
   );
 }

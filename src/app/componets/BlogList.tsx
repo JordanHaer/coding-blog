@@ -4,14 +4,16 @@ import { format, parseISO } from "date-fns";
 
 interface BlogListProps {
   posts: Post[];
+  count: number;
 }
 
-export default function BlogList({ posts }: BlogListProps) {
+export default function BlogList({ posts, count }: BlogListProps) {
+  const numberOfPosts = posts.slice(0, count);
   return (
-    <main className="flex-grow">
+    <div className="flex-grow">
       <div className="container mx-auto px-4 py-8 lg:max-w-5xl">
         <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          {posts.map((post: Post) => (
+          {numberOfPosts.map((post: Post) => (
             <Link key={post.slug} href={`/blog/${post.slug}`}>
               <div className="bg-white shadow-md p-6 h-full hover:bg-gray-100 transition-colors flex flex-col justify-between gap-16">
                 <div>
@@ -24,6 +26,6 @@ export default function BlogList({ posts }: BlogListProps) {
           ))}
         </div>
       </div>
-    </main>
+    </div>
   );
 }
