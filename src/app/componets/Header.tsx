@@ -18,7 +18,7 @@ export default function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <header className="bg-white shadow">
+    <header className="bg-white shadow sticky top-0">
       <div className="container mx-auto px-4 py-6">
         <nav className="flex justify-between items-center">
           <div>
