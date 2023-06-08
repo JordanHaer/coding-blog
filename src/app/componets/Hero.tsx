@@ -1,6 +1,6 @@
-import Link from "next/link";
 import React from "react";
 import hero from "../../../public/images/hero.jpg";
+import AllBlogPostsButton from "./AllBlogPostsButton";
 
 export default function Hero() {
   return (
@@ -24,12 +24,7 @@ export default function Hero() {
               frameworks, and more. Let&#39;s learn and grow together in the vast landscape of web development.
             </p>
             <div className="mt-6">
-              <Link
-                href="/blog"
-                className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded"
-              >
-                See Blog Posts
-              </Link>
+              <AllBlogPostsButton />
             </div>
           </div>
         </div>
