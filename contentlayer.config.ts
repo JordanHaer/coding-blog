@@ -5,8 +5,8 @@ export const Post = defineDocumentType(() => ({
   name: "Post",
   filePathPattern: `**/*.md`,
   fields: {
+    id: { type: "number", required: true },
     title: { type: "string", required: true },
-    summary: { type: "string", required: true },
     date: { type: "date", required: true },
   },
   computedFields: {
