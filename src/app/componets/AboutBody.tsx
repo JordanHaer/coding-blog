@@ -4,7 +4,7 @@ import AllBlogPostsButton from "./AllBlogPostsButton";
 export default function AboutBody() {
   return (
     <main className="flex-grow flex flex-col items-center">
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-6 sm:py-12">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold mb-6">About Me</h1>
           <p className="leading-loose mb-6">

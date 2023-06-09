@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="w-full relative">
         <Image src={hero} alt="Hero Image" fill placeholder="blur" />
         <div className="absolute inset-0 bg-black bg-opacity-50 " style={{ backdropFilter: "blur(8px)" }}></div>
-        <div className="container mx-auto px-4 py-12 relative z-10">
+        <div className="container mx-auto px-4 py-6 sm:py-12 relative z-10">
           <div className="max-w-3xl mx-auto">
             <h1 className="text-4xl font-bold text-white mb-6">Welcome to My Blog!</h1>
             <p className=" text-white leading-loose mb-6">
@@ -23,7 +23,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-4 pt-8">
+      <div className="container mx-auto px-4 pt-4 sm:pt-8">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl font-semibold text-center">Recent blog posts</h2>
         </div>
