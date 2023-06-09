@@ -1,9 +1,10 @@
 "use client";
-
-import Link from "next/link";
+import { Playfair_Display } from "next/font/google";
 import { useState } from "react";
+import Link from "next/link";
 import HamburgerIcon from "../icons/HamburgerIcon";
 import CrossIcon from "../icons/CrossIcon";
+const playfairDisplay = Playfair_Display({ subsets: ["latin"] });
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -13,7 +14,6 @@ const navLinks = [
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -22,7 +22,10 @@ export default function Header() {
       <div className="container mx-auto px-4 py-6">
         <nav className="flex justify-between items-center">
           <div>
-            <Link href="/" className="text-lg sm:text-2xl font-bold text-gray-800 mr-4">
+            <Link
+              href="/"
+              className={`text-lg sm:text-2xl font-bold text-gray-800 mr-4 ${playfairDisplay.className}`}
+            >
               Jordan&apos;s Coding Chronicles
             </Link>
           </div>
