@@ -1,18 +1,13 @@
 import React from "react";
 import hero from "../../../public/images/hero.jpg";
 import AllBlogPostsButton from "./AllBlogPostsButton";
+import Image from "next/image";
 
 export default function Hero() {
   return (
     <div className="flex flex-col items-center">
-      <div
-        className="w-full relative"
-        style={{
-          backgroundImage: `url(${hero.src})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <div className="w-full relative">
+        <Image src={hero} alt="Hero Image" fill placeholder="blur" />
         <div className="absolute inset-0 bg-black bg-opacity-50 " style={{ backdropFilter: "blur(8px)" }}></div>
         <div className="container mx-auto px-4 py-12 relative z-10">
           <div className="max-w-3xl mx-auto">
