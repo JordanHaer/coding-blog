@@ -11,7 +11,7 @@ export default function BlogList({ posts, count }: BlogListProps) {
   const numberOfPosts = posts.slice(0, count);
   return (
     <div className="flex-grow">
-      <div className="container mx-auto px-4 py-8 lg:max-w-5xl">
+      <div className="container mx-auto px-4 py-8 lg:max-w-6xl">
         <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {numberOfPosts.map((post: Post) => (
             <Link key={post.id} href={`/blog/${post.slug}`}>
