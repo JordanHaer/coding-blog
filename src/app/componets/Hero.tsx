@@ -11,12 +11,13 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black bg-opacity-50 " style={{ backdropFilter: "blur(8px)" }}></div>
         <div className="container mx-auto px-4 py-12 relative z-10">
           <div className="max-w-3xl mx-auto">
-            <h1 className="text-4xl font-bold text-white mb-6">Welcome to My Blog</h1>
+            <h1 className="text-4xl font-bold text-white mb-6">Welcome to My Blog!</h1>
             <p className=" text-white leading-loose mb-6">
-              Welcome to my coding blog, where I document my journey of learning and exploring web development.
-              Here, I share insights, tutorials, and experiences as I delve into the world of web technologies.
-              Join me on this exciting adventure as we uncover the intricacies of HTML, CSS, JavaScript,
-              frameworks, and more. Let&#39;s learn and grow together in the vast landscape of web development.
+              Here, I document my journey of learning to code and making strides in the tech
+              industry. This platform serves as an outlet for me to share the knowledge and insights I&#39;ve
+              gained throughout my experiences. As I explore new technologies, languages, and frameworks, I will
+              document my encounters and provide updates on the projects I&#39;m currently working on. Stay tuned
+              for exciting content and glimpses into my coding endeavors!
             </p>
             <AllBlogPostsButton />
           </div>
