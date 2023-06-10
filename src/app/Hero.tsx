@@ -1,6 +1,6 @@
 import React from "react";
-import hero from "../../../public/images/hero.jpg";
-import AllBlogPostsButton from "./AllBlogPostsButton";
+import hero from "../../public/images/hero.jpg";
+import AllBlogPostsButton from "./componets/AllBlogPostsButton";
 import Image from "next/image";
 
 export default function Hero() {

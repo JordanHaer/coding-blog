@@ -1,6 +1,6 @@
 import { Post } from "contentlayer/generated";
 import { format, parseISO } from "date-fns";
-import AllBlogPostsButton from "./AllBlogPostsButton";
+import AllBlogPostsButton from "../../componets/AllBlogPostsButton";
 
 interface BlogPostProps {
   post: Post;

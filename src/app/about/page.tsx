@@ -1,4 +1,4 @@
-import AboutBody from "../componets/AboutBody";
+import AboutBody from "./AboutBody";
 import Footer from "../componets/Footer";
 import Header from "../componets/Header";
 

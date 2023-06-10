@@ -1,4 +1,4 @@
-import BlogPost from "@/app/componets/BlogPost";
+import BlogPost from "@/app/blog/[slug]/BlogPost";
 import Footer from "@/app/componets/Footer";
 import Header from "@/app/componets/Header";
 import { getPosts, getPostBySlug } from "@/lib/posts";

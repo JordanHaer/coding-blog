@@ -1,5 +1,5 @@
 import React from "react";
-import AllBlogPostsButton from "./AllBlogPostsButton";
+import AllBlogPostsButton from "../componets/AllBlogPostsButton";
 
 export default function AboutBody() {
   return (

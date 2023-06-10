@@ -16,7 +16,7 @@ export default function Footer() {
           &copy; {new Date().getFullYear()} Jordan Haer. All rights reserved.
         </p>
         <ul className="items-center gap-4 hidden sm:flex">
-          {footerIcons.map(({ link, icon }, index) => (
+          {footerIcons.map(({ link, icon }) => (
             <li key={link}>
               <a href={link} target="_blank" rel="noopener noreferrer">
                 {icon}
