@@ -2,6 +2,7 @@
 id: 5
 title: Next.js with SSR
 date: 2023-06-05
+readTime: 10
 ---
 
 ### Introduction

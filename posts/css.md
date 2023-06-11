@@ -2,6 +2,7 @@
 id: 2
 title: Styling with CSS
 date: 2023-03-24
+readTime: 8
 ---
 
 ### Introduction

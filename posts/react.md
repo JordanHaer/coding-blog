@@ -2,6 +2,7 @@
 id: 4
 title: Bulding UIs with React
 date: 2023-05-01
+readTime: 7
 ---
 
 ### Introduction

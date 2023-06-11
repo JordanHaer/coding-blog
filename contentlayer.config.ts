@@ -1,4 +1,3 @@
-// contentlayer.config.ts
 import { defineDocumentType, makeSource } from "@contentlayer/source-files";
 
 export const Post = defineDocumentType(() => ({
@@ -8,6 +7,7 @@ export const Post = defineDocumentType(() => ({
     id: { type: "number", required: true },
     title: { type: "string", required: true },
     date: { type: "date", required: true },
+    readTime: { type: "number", required: true },
   },
   computedFields: {
     url: { type: "string", resolve: (post) => `/posts/${post._raw.flattenedPath}` },

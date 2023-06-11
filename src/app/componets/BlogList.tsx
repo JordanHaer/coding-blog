@@ -20,7 +20,7 @@ export default function BlogList({ posts, count }: BlogListProps) {
                   <p className="text-2xl font-bold text-blue-500 mb-4">{post.title}</p>
                   <div className="content" dangerouslySetInnerHTML={{ __html: post.body.html }}></div>
                 </div>
-                <p className="text-gray-400 ">{format(parseISO(post.date), "LLLL d, yyyy")}</p>
+                <p className="text-gray-400 ">{format(parseISO(post.date), "LLLL d, yyyy")} &#8226; {post.readTime} min read</p>
               </div>
             </Link>
           ))}

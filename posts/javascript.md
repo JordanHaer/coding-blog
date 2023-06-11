@@ -2,6 +2,7 @@
 id: 3
 title: JavaScript Logic
 date: 2023-04-03
+readTime: 14
 ---
 
 ### Introduction

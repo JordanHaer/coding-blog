@@ -2,6 +2,7 @@
 id: 1
 title: Starting with HTML
 date: 2023-03-20
+readTime: 11
 ---
 
 ### Introduction

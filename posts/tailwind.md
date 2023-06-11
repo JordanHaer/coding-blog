@@ -2,6 +2,7 @@
 id: 6
 title: Inline Styling - Tailwind
 date: 2023-06-07
+readTime: 4
 ---
 
 ### My Journey with Tailwind CSS: Simplifying Styling in Web Development
