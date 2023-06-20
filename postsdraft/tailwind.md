@@ -3,6 +3,9 @@ id: 6
 title: Inline Styling - Tailwind
 date: 2023-06-07
 readTime: 4
+tags: [CSS,HTML]
+image: '/tailwind.jpg'
+
 ---
 
 ### My Journey with Tailwind CSS: Simplifying Styling in Web Development

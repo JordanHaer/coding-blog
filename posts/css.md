@@ -2,16 +2,18 @@
 id: 2
 title: Styling with CSS
 date: 2023-03-24
-readTime: 8
+readTime: 5
+tags: [CSS]
+image: "/css.jpg"
 ---
 
 ### Introduction
 
-CSS (Cascading Style Sheets) is a fundamental part of web development, allowing us to bring life and visual appeal to our web pages. Whether you're a beginner or an experienced developer, understanding CSS is essential for creating beautiful and engaging user interfaces. In this blog post, we'll embark on a journey to explore the basics of CSS and delve into some advanced techniques. So, let's dive in!
+CSS (Cascading Style Sheets) allows us to enhance the visual appeal of our web pages. Understanding CSS is essential for creating stylish and engaging user interfaces.
 
 ### Getting Started with CSS
 
-To begin our CSS journey, we need to understand how CSS works and how we can apply styles to HTML elements. CSS uses selectors to target specific HTML elements and apply styles to them. Let's start with a simple example:
+CSS utilises selectors to target specific HTML elements and apply styles to them. Here's an example of how we link a CSS file to an HTML document:
 
 ```HTML
 <!-- index.html -->
@@ -27,26 +29,26 @@ To begin our CSS journey, we need to understand how CSS works and how we can app
 </html>
 ```
 
-In the above HTML code, we have a basic structure with a heading `<h1>` and a paragraph `<p>`. To style these elements, we link an external CSS file `styles.css` to our HTML document. Let's see how we can style them using CSS:
+In the above HTML code, we have a basic structure with a heading `<h1>` and a paragraph `<p>`. To style these elements, we link an external CSS file `styles.css` to our HTML document. This is how we style those elements using CSS:
 
 ```CSS
 /* styles.css */
 h1 {
-  color: #333;
+  color: red;
   font-size: 24px;
 }
 
 p {
-  color: #666;
+  color: blue;
   font-size: 16px;
 }
 ```
 
-In the CSS code above, we have defined styles for the `h1` and `p` elements. We set the color and font size properties to achieve the desired visual appearance. Now, when we open the HTML file in a web browser, we'll see the heading and paragraph styled accordingly.
+In the CSS code above, we have defined styles for the `h1` and `p` elements. We set the color and font size properties to achieve the desired visual appearance. In the browser when viewing the page the colour of the heading text will be red and large and the text below will be blue and slighly smaller.
 
 ### Exploring Selectors and Properties
 
-CSS offers a wide range of selectors and properties to select and style elements. Let's explore a few commonly used ones:
+CSS offers a wide range of selectors and properties to select and style elements.
 
 #### Class Selectors
 
@@ -79,7 +81,7 @@ ID selectors target a specific element with a unique ID. We define an ID using t
 }
 ```
 
-In the above code, the introduction paragraph is styled with an italic font style using the `#intro` ID selector.
+In the above code, the introduction paragraph is styled with an italic font style using the `#intro` ID selector. Many elements can be styled with the same class, but only one element can be styled with an ID selector.
 
 #### Common CSS Properties
 
@@ -91,27 +93,21 @@ CSS provides a vast array of properties to control various aspects of element st
 - `margin`: Controls the margin space around an element.
 - `padding`: Defines the padding space within an element.
 
-These are just a few examples, but CSS offers many more properties to explore and experiment with.
-
 ### Responsive Design with CSS
 
-In the era of mobile devices, responsive design has become crucial. CSS offers powerful techniques to create responsive layouts that adapt to different screen sizes. One commonly used approach is media queries:
+In the era of mobile devices, responsive design is necessary when creating web pages. CSS offers functionality to create responsive layouts that adapt to different screen sizes. One commonly used approach is media queries:
 
 ```CSS
 @media (max-width: 768px) {
   /* Styles applied when the screen width is 768 pixels or less */
-  .container {
-    flex-direction: column;
+  .title {
+    font-size: 12px;
   }
 }
 ```
 
-In the above code, the styles within the media query are applied when the screen width is 768 pixels or less. Here, we adjust the layout of a container element by changing its flex-direction property to column, allowing for a vertical stacking of its child elements.
+In the above code, the styles within the media query are applied when the screen width is 768 pixels or less. In this example, we adjust the font size of the elements with the class "title" to 12 pixels, ensuring they fit well on smaller screens.
 
 ### Conclusion
 
-Congratulations on completing this journey into the world of CSS! We covered the basics of CSS, including selectors, properties, and responsive design techniques. Remember, practice is key to mastering CSS, so keep experimenting and exploring new possibilities.
-
-CSS is an essential tool in a web developer's arsenal, enabling us to transform static HTML into visually appealing and engaging websites. As you continue your coding journey, I encourage you to dig deeper into CSS and explore advanced topics such as CSS frameworks, animations, and preprocessors.
-
-Stay curious, stay creative, and happy coding!
+CSS empowers web development with visual appeal and responsiveness. It separates presentation from content, enabling stunning designs across devices. Essential for modern web development.

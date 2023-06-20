@@ -3,6 +3,9 @@ id: 7
 title: Types with TypeScript
 date: 2023-06-06
 readTime: 8
+tags: [CSS,HTML]
+image: '/typescript.jpg'
+
 ---
 
 ### Exploring the Power of TypeScript: Elevating JavaScript Development
